@@ -1,0 +1,227 @@
+footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.header-logo-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  display: block;
+  color: #ffffff;
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-logo-link {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--accent-color);
+}
+
+.header-logo-logo:hover,
+.header-logo-logo:focus {
+  color: var(--accent-color);
+}
+
+.footer {
+  background-color: #2f303a;
+  color: #ffffff;
+
+  padding: 60px 0;
+}
+
+.footer-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
+.footer-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.footer-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.footer-mail,
+.footer-tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--accent-color);
+}
+
+.footer-link {
+  display: flex;
+  margin-bottom: 9px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-mail {
+  display: flex;
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
+}
+
+.right-footer-box {
+  width: 206px;
+  height: 80px;
+  margin-left: 70px;
+}
+
+.footer-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.socials-footer-list {
+  display: flex;
+  align-items: center;
+}
+
+.socials-footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff1a;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.socials-footer-link:hover,
+.socials-footer-link:focus {
+  background-color: var(--accent-color);
+}
+
+.socials-footer-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.team-socials-footer {
+  fill: #ffffff;
+  height: 20px;
+}
+
+.form-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 93px;
+}
+
+.form-footer-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-left: 93px;
+}
+
+.form-footer-input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.form-footer-input {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #ffffff4d;
+  color: #ffffff;
+}
+
+.form-footer-input:hover,
+.form-footer-input:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+.form-footer-send {
+  display: inline-flex;
+  margin-left: 12px;
+  padding: 10px 28px 10px 29px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-footer-send::after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  background-image: url(../images/icon-send.svg);
+  background-size: contain;
+}
+.form-footer-send:hover,
+.form-footer-send:focus {
+  background-color: #188ce8;
+}
