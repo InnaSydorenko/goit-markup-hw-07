@@ -8,7 +8,7 @@
   bottom: -1px;
   background-color: var(--accent-color);
   border-radius: 2px;
-}
-.current {
-  color: var(--accent-color);
+  & {
+    color: var(--accent-color);
+  }
 }

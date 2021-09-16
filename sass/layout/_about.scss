@@ -13,13 +13,12 @@
   margin-bottom: 50px;
 }
 
-.about-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .about-item {
   position: relative;
   width: 370px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .about-text {
   display: flex;
