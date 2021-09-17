@@ -1,14 +1,14 @@
-.socials__list {
+.socials-list {
   display: flex;
   align-items: center;
   max-width: 206px;
 }
 
-.socials__item:not(:last-child) {
+.socials-list__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.socials__link {
+.socials-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,8 +24,11 @@
     color: #ffffff;
   }
 }
+.socials-list__link_backgroud_dark {
+  background-color: #ffffff1a;
+}
 
-.socials__logo {
+.socials-list__logo {
   height: 20px;
   fill: currentColor;
 
@@ -33,4 +36,7 @@
   &:focus {
     fill: #ffffff;
   }
+}
+.logo_color_light {
+  fill: #ffffff;
 }

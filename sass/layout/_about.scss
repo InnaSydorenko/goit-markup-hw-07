@@ -12,19 +12,19 @@
 
   margin-bottom: 50px;
 }
-.about__list {
+.about-list {
   display: flex;
   justify-content: center;
 }
 
-.about__item {
+.about-list__item {
   position: relative;
   width: 370px;
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
-.about__text {
+.about-list__text {
   display: flex;
   justify-content: center;
 
